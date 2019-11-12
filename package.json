@@ -1,0 +1,39 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "A friendly begginer discord bot template for new programmers",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiageMiguel/Discord-Bot-Template.git"
+  },
+  "keywords": [
+    "Discord",
+    "Discord-Bot",
+    "Bot",
+    "Template",
+    "Discord-Bot-Template",
+    "NodeJS"
+  ],
+  "author": "Tiago Miguel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiageMiguel/Discord-Bot-Template/issues"
+  },
+  "homepage": "https://github.com/TiageMiguel/Discord-Bot-Template",
+  "devDependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^1.19.1"
+  }
+}
